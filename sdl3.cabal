@@ -197,7 +197,7 @@ library
 
     if flag(pkgconfig)
       pkgconfig-depends:
-        sdl3 >= 3.3.0
+        sdl3 >= 3.2.0
 
     if flag(static-linking) && os(darwin)
       -- Static linking not supported on macOS
