@@ -95,8 +95,10 @@ module SDL3.Audio
   , sdlPauseAudioStreamDevice
   , sdlResumeAudioStreamDevice
   , sdlAudioStreamDevicePaused
-    -- * Audio Post-mix Callback
+    -- * Audio Callbacks
   , sdlSetAudioPostmixCallback
+  , sdlSetAudioStreamGetCallback
+  , sdlSetAudioStreamPutCallback
     -- * WAV Loading Functions
   , sdlLoadWAV_IO
   , sdlLoadWAV
